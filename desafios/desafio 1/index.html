@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pato Desenhado</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to bottom, #87ceeb, #dff6ff);
+      overflow: hidden;
+    }
+
+    .duck {
+      position: relative;
+      width: 260px;
+      height: 180px;
+    }
+
+    .body {
+      position: absolute;
+      width: 170px;
+      height: 110px;
+      background: #ffd400;
+      border-radius: 50% 55% 45% 50%;
+      top: 55px;
+      left: 55px;
+      box-shadow: inset -10px -8px 0 rgba(0,0,0,0.08);
+    }
+
+    .head {
+      position: absolute;
+      width: 95px;
+      height: 95px;
+      background: #ffd400;
+      border-radius: 50%;
+      top: 15px;
+      left: 120px;
+      box-shadow: inset -8px -6px 0 rgba(0,0,0,0.08);
+    }
+
+    .eye {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: #111;
+      border-radius: 50%;
+      top: 38px;
+      left: 185px;
+    }
+
+    .beak {
+      position: absolute;
+      width: 55px;
+      height: 28px;
+      background: #ff9f1c;
+      border-radius: 50% 45% 45% 50%;
+      top: 58px;
+      left: 205px;
+      transform: rotate(8deg);
+    }
+
+    .wing {
+      position: absolute;
+      width: 70px;
+      height: 50px;
+      background: #f6c800;
+      border-radius: 50% 60% 50% 60%;
+      top: 82px;
+      left: 92px;
+      transform: rotate(-12deg);
+      box-shadow: inset -6px -5px 0 rgba(0,0,0,0.06);
+    }
+
+    .tail {
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      background: #ffd400;
+      top: 92px;
+      left: 35px;
+      border-radius: 0 100% 0 100%;
+      transform: rotate(-35deg);
+    }
+
+    .leg1, .leg2 {
+      position: absolute;
+      width: 10px;
+      height: 55px;
+      background: #f59e0b;
+      top: 150px;
+      border-radius: 10px;
+    }
+
+    .leg1 {
+      left: 110px;
+    }
+
+    .leg2 {
+      left: 145px;
+    }
+
+    .foot1, .foot2 {
+      position: absolute;
+      width: 34px;
+      height: 14px;
+      background: #f59e0b;
+      border-radius: 50px;
+      top: 195px;
+    }
+
+    .foot1 {
+      left: 95px;
+      transform: rotate(8deg);
+    }
+
+    .foot2 {
+      left: 135px;
+      transform: rotate(-6deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="duck">
+    <div class="tail"></div>
+    <div class="body"></div>
+    <div class="wing"></div>
+    <div class="head"></div>
+    <div class="eye"></div>
+    <div class="beak"></div>
+    <div class="leg1"></div>
+    <div class="leg2"></div>
+    <div class="foot1"></div>
+    <div class="foot2"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+body{
+    background-color: rgb(103, 235, 184);
+}
+h1{
+    color: rgb(35, 73, 57);
+}
+h2{
+    color: rgb(31, 134, 53);
+}
+h1#prin{
+    text-align: center;
+    font: italic bolder 32px arial,sans-serif;
+}
+.basico{
+    color: yellow;
+}

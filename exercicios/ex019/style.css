@@ -1,0 +1,68 @@
+@charset 'UTF-8';
+
+body{
+    background-color: rgb(83, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px 0px;
+    margin: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav{
+    background-color: rgb(80, 80, 80);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.411);
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: white;
+    padding: 10px 5px 15px 10px;
+    border: 10px solid #535353;
+    border-radius: 20px
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+section > article{
+    padding: 10px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+article{
+    background-color: lightgray;
+}
+
+aside > p{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+article#msg{
+    border-radius: 10px;
+}
+
